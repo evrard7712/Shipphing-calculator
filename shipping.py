@@ -3,14 +3,20 @@
 
 # jusqu'à 1kg 5$ ; de 1 à 5kg 10$ ; plus de 5kg 15$
 
-
-poids = float("Entrez le poids du colis en kg svp : " ))
-
-if poid <= 1:
-  frais_port = 5
-else poids <=5:
-    frais_port = 10
+der calculate_shipping(weight):
+  if wieght <= 2:
+    return 5
+  else weight <=5:
+    return 10
+  else weight <=10:
+    return 15
 else:
-  frais_port = 15
+    return 20
 
-print("Les frais de port sont de :", frais_port, "$")
+weight = float(input("Entrer le poids de votre colis en KG svp: "))
+
+shipping_costs = 
+calculate_shipping(weight)
+
+print(f"shipping costs: $
+{shipping_costs}")
