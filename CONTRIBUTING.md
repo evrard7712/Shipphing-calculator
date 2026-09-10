@@ -1,10 +1,18 @@
 # Contribution Guidelines.
 
-Merci de vouloir contribuer au projet shipping-calculator.
+Thank you for contributing to the Shipping calculator project.
 
-## Comment proposer une Modification?
+## How to contribute
 
-1. Fork le depot.
-2. Créer une branche :
- '''bash
-git checkout -b feature/ma-fonctionnalite.
+1. Fork the repository
+2. Clone your fork
+3. Create a new branch
+4. Make your changes
+5. Test your changes
+6. Commit your changes
+7. Push your branch to GitHub
+8. Open a pull Request
+
+## Commit messages
+
+Please use clear and descriptive commit messages.
